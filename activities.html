@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Activities - Pearl of Hope Hostel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Hostel Activities</h2>
+    <h3>Compulsory Activities</h3>
+    <ul class="activities-list">
+        <li>Watching TV</li>
+        <li>Chapel</li>
+        <li>Exercise</li>
+        <li>Dorm Cleaning</li>
+        <li>Washing</li>
+    </ul>
+
+    <h3>Optional Activities</h3>
+    <form action="activities.php" method="post">
+        <label for="student_name">Name of Student:</label>
+        <input type="text" id="student_name" name="student_name" required><br>
+
+        <label for="class">Class:</label>
+        <input type="text" id="class" name="class" required><br>
+
+        <p>Select Activities to Enroll For:</p>
+        <input type="checkbox" id="chess" name="activities[]" value="Chess Club">
+        <label for="chess">Chess Club</label><br>
+        <input type="checkbox" id="football" name="activities[]" value="Football">
+        <label for="football">Football</label><br>
+        <input type="checkbox" id="volleyball" name="activities[]" value="Volleyball">
+        <label for="volleyball">Volleyball</label><br>
+        <input type="checkbox" id="basketball" name="activities[]" value="Basketball">
+        <label for="basketball">Basketball</label><br>
+
+        <input type="submit" value="Enroll">
+    </form>
+</body>
+</html>

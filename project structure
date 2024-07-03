@@ -1,0 +1,21 @@
+pearl_of_hope/
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   └── scripts.js
+│
+├── php/
+│   ├── config.php
+│   ├── booking.php
+│   ├── registration.php
+│   └── payments.php
+│
+├── index.html
+├── dashboard.html
+├── booking.html
+├── registration.html
+├── payments.html
+├── rules.html
+└── contacts.html

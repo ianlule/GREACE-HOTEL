@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - Pearl of Hope Hostel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Booking Form</h2>
+    <form action="booking.php" method="post">
+        <label for="student_name">Name of Student:</label>
+        <input type="text" id="student_name" name="student_name" required><br>
+
+        <label for="class">Class:</label>
+        <input type="text" id="class" name="class" required><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br>
+
+        <label for="bed_preference">Bed Preference:</label>
+        <select id="bed_preference" name="bed_preference" required>
+            <option value="upper">Upper Bed</option>
+            <option value="middle">Middle Bed</option>
+            <option value="lower">Lower Bed</option>
+        </select><br>
+
+        <label for="allergies">Allergies:</label>
+        <textarea id="allergies" name="allergies"></textarea><br>
+
+        <label for="disabilities">Disabilities:</label>
+        <textarea id="disabilities" name="disabilities"></textarea><br>
+
+        <label for="former_school">Former School:</label>
+        <input type="text" id="former_school" name="former_school"><br>
+
+        <label for="guardian_name">Guardian's Name:</label>
+        <input type="text" id="guardian_name" name="guardian_name" required><br>
+
+        <label for="guardian_contact">Guardian's Contact:</label>
+        <input type="text" id="guardian_contact" name="guardian_contact" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="date">Booking Date:</label>
+        <input type="date" id="date" name="date" required><br>
+        
+
+        <input type="submit" value="Book Now">
+        <a href="dashboard.html">Go to Home</a>
+    </form>
+</body>
+</html>

@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin: 0;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+/* Centering and Styling Headings */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #0072ff;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ff7e5f;
+}
+
+h3 {
+    font-size: 1.75em;
+    color: #feb47b;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: #34a853;
+}
+
+h5 {
+    font-size: 1.25em;
+    color: #4285f4;
+}
+
+h6 {
+    font-size: 1em;
+    color: #ea4335;
+}
+
+/* Animation for Headers */
+@keyframes fadeInDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Additional Styles for the Page */
+.main-content {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

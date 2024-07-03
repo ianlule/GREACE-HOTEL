@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #eef7f3, #79e9c7);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #fff;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        .contact-container {
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+            text-align: center;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .contact-card {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .contact-card img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+        }
+
+        .contact-card .contact-info {
+            text-align: left;
+        }
+
+        .contact-card .contact-info h2 {
+            margin: 0;
+            color: #ff7e5f;
+        }
+
+        .contact-card .contact-info p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .contact-card .contact-info .icons {
+            margin-top: 10px;
+        }
+
+        .contact-card .contact-info .icons a {
+            margin-right: 15px;
+            color: #555;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        .contact-card .contact-info .icons a:hover {
+            color: #ff7e5f;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <div class="contact-container">
+        <div class="contact-card">
+            <img src="warden.jpg" alt="Warden">
+            <div class="contact-info">
+                <h2>Warden</h2>
+                <p>Phone: +123 456 7890</p>
+                <p>Email: warden@gracehostel.com</p>
+                <div class="icons">
+                    <a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:warden@gracehostel.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-card">
+            <img src="matron.jpg" alt="Matron">
+            <div class="contact-info">
+                <h2>Matron</h2>
+                <p>Phone: +123 456 7891</p>
+                <p>Email: matron@gracehostel.com</p>
+                <div class="icons">
+                    <a href="https://wa.me/1234567891" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:matron@gracehostel.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-card">
+            <img src="security.jpg" alt="Security Officer">
+            <div class="contact-info">
+                <h2>Security Officer</h2>
+                <p>Phone: +123 456 7892</p>
+                <p>Email: security@gracehostel.com</p>
+                <div class="icons">
+                    <a href="https://wa.me/1234567892" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:security@gracehostel.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-card">
+            <img src="custodian.jpg" alt="Custodian">
+            <div class="contact-info">
+                <h2>Custodian</h2>
+                <p>Phone: +123 456 7893</p>
+                <p>Email: custodian@gracehostel.com</p>
+                <div class="icons">
+                    <a href="https://wa.me/1234567893" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:custodian@gracehostel.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-card">
+            <img src="supervisor.jpg" alt="Supervisor">
+            <div class="contact-info">
+                <h2>Supervisor</h2>
+                <p>Phone: +123 456 7894</p>
+                <p>Email: supervisor@gracehostel.com</p>
+                <div class="icons">
+                    <a href="https://wa.me/1234567894" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:supervisor@gracehostel.com"><i class="fas fa-envelope"></i></a>
+                    <a href="dashboard.html">Go to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
